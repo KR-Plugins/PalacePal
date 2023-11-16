@@ -69,35 +69,35 @@
 	<ItemGroup>
 		<!--You may need to adjust these paths yourself. These point to a Dalamud assembly in AppData.-->
 		<Reference Include="Dalamud">
-			<HintPath>$(AppData)\XIVLauncher\addon\Hooks\dev\Dalamud.dll</HintPath>
+			<HintPath>$(DalamudLibPath)Dalamud.dll</HintPath>
 			<Private Condition="'$(Configuration)' != 'EF'">false</Private>
 		</Reference>
 		<Reference Include="ImGui.NET">
-			<HintPath>$(AppData)\XIVLauncher\addon\Hooks\dev\ImGui.NET.dll</HintPath>
+			<HintPath>$(DalamudLibPath)ImGui.NET.dll</HintPath>
 			<Private Condition="'$(Configuration)' != 'EF'">false</Private>
 		</Reference>
 		<Reference Include="ImGuiScene">
-			<HintPath>$(AppData)\XIVLauncher\addon\Hooks\dev\ImGuiScene.dll</HintPath>
+			<HintPath>$(DalamudLibPath)ImGuiScene.dll</HintPath>
 			<Private Condition="'$(Configuration)' != 'EF'">false</Private>
 		</Reference>
 		<Reference Include="Lumina">
-			<HintPath>$(AppData)\XIVLauncher\addon\Hooks\dev\Lumina.dll</HintPath>
+			<HintPath>$(DalamudLibPath)Lumina.dll</HintPath>
 			<Private Condition="'$(Configuration)' != 'EF'">false</Private>
 		</Reference>
 		<Reference Include="Lumina.Excel">
-			<HintPath>$(AppData)\XIVLauncher\addon\Hooks\dev\Lumina.Excel.dll</HintPath>
+			<HintPath>$(DalamudLibPath)Lumina.Excel.dll</HintPath>
 			<Private Condition="'$(Configuration)' != 'EF'">false</Private>
 		</Reference>
 		<Reference Include="Newtonsoft.Json">
-			<HintPath>$(AppData)\XIVLauncher\addon\Hooks\dev\Newtonsoft.Json.dll</HintPath>
+			<HintPath>$(DalamudLibPath)Newtonsoft.Json.dll</HintPath>
 			<Private Condition="'$(Configuration)' != 'EF'">false</Private>
 		</Reference>
 		<Reference Include="FFXIVClientStructs">
-			<HintPath>$(AppData)\XIVLauncher\addon\Hooks\dev\FFXIVClientStructs.dll</HintPath>
+			<HintPath>$(DalamudLibPath)FFXIVClientStructs.dll</HintPath>
 			<Private Condition="'$(Configuration)' != 'EF'">false</Private>
 		</Reference>
 		<Reference Include="Serilog">
-			<HintPath>$(AppData)\XIVLauncher\addon\Hooks\dev\Serilog.dll</HintPath>
+			<HintPath>$(DalamudLibPath)Serilog.dll</HintPath>
 			<Private Condition="'$(Configuration)' != 'EF'">false</Private>
 		</Reference>
 	</ItemGroup>
