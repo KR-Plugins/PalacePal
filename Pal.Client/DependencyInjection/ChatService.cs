@@ -104,7 +104,7 @@ namespace Pal.Client.DependencyInjection
             if (Svc.ClientState.ClientLanguage == Dalamud.ClientLanguage.Japanese) return @"^地下(\d+)階";
             if (Svc.ClientState.ClientLanguage == Dalamud.ClientLanguage.German) return @"^Ebene (\d+) betreten!";
             if (Svc.ClientState.ClientLanguage == Dalamud.ClientLanguage.French) return @"^Sous-sol (\d+)";
-            if (Svc.ClientState.ClientLanguage == (Dalamud.ClientLanguage)4) return @"^地下(\d+)层";
+            if (Svc.ClientState.ClientLanguage == Dalamud.ClientLanguage.Korean) return @"^지하 (\d+)층";
             throw new Exception("Invalid client language: " + Svc.ClientState.ClientLanguage);
 
         }
